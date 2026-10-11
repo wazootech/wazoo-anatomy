@@ -1,0 +1,6 @@
+_site/
+shots/
+node_modules/
+.DS_Store
+figures/*/index.html
+figures/*/index-light.html
