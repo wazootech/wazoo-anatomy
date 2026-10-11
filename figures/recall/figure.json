@@ -1,0 +1,7 @@
+{
+  "project": "Worlds",
+  "title": "Hybrid recall",
+  "order": 1,
+  "blurb": "How Worlds answers a question: keyword and vector rankings fed into a rank-fuse drum, fused by reciprocal rank, then read as a chunk that names the entity SPARQL should traverse.",
+  "prompt": "Draw a small single-purpose industrial machine, isometric, that physically fuses two ranked lists. Two tall open magazines of flat slips—one labelled for keyword search, one for vector search—feed a slotted revolver drum in the middle that interleaves the two rankings into one queue on a rail, best slip first. A carriage with a down-pointing needle slides along the rail, a round dial reads a fused score, and from the top slip a thread runs through two eyelets to an answer card clipped on a board at the back. Muted four-tone metal, one tiny engraved label, no diagram arrows or captions; the machine should look like it exists. Output one self-contained interactive HTML page: hovering across the rail parks the carriage and updates the needle and readout."
+}

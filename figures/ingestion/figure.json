@@ -1,0 +1,7 @@
+{
+  "project": "Worlds",
+  "title": "Quad intake",
+  "order": 2,
+  "blurb": "How Worlds takes in knowledge: a quad passes a textual-literal filter and an idempotency guard, is flattened into a search chunk, written to both a full-text and a vector index, and filed under all six hexastore orderings.",
+  "prompt": "Draw a small single-purpose industrial machine, isometric, that takes one four-part fact card and files it. A hopper of stacked cards on the left feeds a toothed guard wheel engraved with a short code; a duplicate card is turned aside into a small reject tray. A two-column press in the middle stamps a card flat into a long ribbon of words, and a diverter sends the ribbon to two index bins, one a drawer of cards and one a tape spool. At the front a six-station turntable, one seat per ordering of the three parts, receives the card. Muted four-tone metal, one tiny engraved label, no diagram arrows or captions; the machine should look like it exists. Output one self-contained interactive HTML page: stepping across the bench advances a card through the stages and lights the next turntable seat."
+}

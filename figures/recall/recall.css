@@ -1,0 +1,13 @@
+.iso-stage {
+  outline: none;
+  cursor: ew-resize;
+  touch-action: pan-y;
+}
+.iso-stage:focus-visible {
+  outline: 2px solid var(--anatomy-hi);
+  outline-offset: 6px;
+  border-radius: 4px;
+}
+.iso-stage[data-part] .iso-stage svg {
+  user-select: none;
+}
