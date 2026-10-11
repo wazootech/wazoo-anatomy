@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wazoo Anatomy</title>
+    <meta
+      name="description"
+      content="Illustrated, interactive anatomy figures explaining how Wazoo projects work."
+    />
+    <style>
+      :root {
+        color-scheme: dark light;
+        --bg: #10131a;
+        --panel: #171b24;
+        --panel-edge: #262c38;
+        --ink: #e7ebf3;
+        --muted: #98a2b3;
+        --accent: #7aa2ff;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f5f6f8;
+          --panel: #ffffff;
+          --panel-edge: #e2e5ea;
+          --ink: #1b1f27;
+          --muted: #5b6472;
+          --accent: #2f6ae0;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      header.page {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 56px 24px 8px;
+      }
+      header.page h1 {
+        margin: 0 0 6px;
+        font-size: 30px;
+        letter-spacing: -0.01em;
+      }
+      header.page p {
+        margin: 0;
+        color: var(--muted);
+        max-width: 60ch;
+      }
+      main {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 16px 24px 72px;
+      }
+      .group {
+        margin-top: 40px;
+      }
+      .group h2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+        margin: 0 0 16px;
+        border-bottom: 1px solid var(--panel-edge);
+        padding-bottom: 8px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 16px;
+      }
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--panel-edge);
+        border-radius: 12px;
+        padding: 18px 18px 12px;
+        display: flex;
+        flex-direction: column;
+      }
+      .card h3 {
+        margin: 0;
+        font-size: 18px;
+      }
+      .card .blurb {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .open {
+        color: inherit;
+      }
+      .open:hover {
+        text-decoration: none;
+      }
+      .open:hover h3 {
+        color: var(--accent);
+      }
+      .prompt {
+        margin: 12px 0 0;
+        font-size: 13px;
+      }
+      .prompt summary {
+        cursor: pointer;
+        color: var(--muted);
+      }
+      .prompt p {
+        margin: 8px 0 0;
+        padding: 10px 12px;
+        border-left: 2px solid var(--accent);
+        background: color-mix(in srgb, var(--panel) 70%, var(--bg));
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        white-space: pre-wrap;
+      }
+      .links {
+        margin: auto 0 0;
+        padding-top: 14px;
+        display: flex;
+        gap: 8px;
+        font-size: 14px;
+      }
+      .links span {
+        color: var(--muted);
+      }
+      footer.page {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 0 24px 48px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .empty {
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="page">
+      <h1>Wazoo Anatomy</h1>
+      <p>
+        Interactive isometric figures that take a Wazoo project apart to show how one mechanism
+        actually works. Each is a single self-contained HTML page; open one and play with it.
+      </p>
+    </header>
+    <main>
+<!--FIGURES-->
+    </main>
+    <footer class="page">
+      <!--COUNT--> figure(s) · built and deployed from the <code>figures/</code> directory.
+    </footer>
+  </body>
+</html>
